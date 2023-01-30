@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header section -->
-    <header class="section-header header-border">
+    <header class="section-header">
         <div class="container flex-header">
-            <a href="./" class="logo">Web<span class="logo-dark">Studio</span></a>
+            <a class="logo" href="./">Web<span class="logo-dark">Studio</span></a>
             <nav>
                     <ul class="flex-menu">
-                        <li class="menu"><a href="./index.html" class="nav">Studio</a> </li>
-                        <li class="menu"><a href="./portfolio.html" class="nav current">Portfolio</a> </li>
-                        <li class="menu"><a href="" class="nav">Contacts</a> </li>
+                        <li class="menu"><a class="nav current" href="./index.html">Studio</a> </li>
+                        <li class="menu"><a class="nav" href="./portfolio.html">Portfolio</a> </li>
+                        <li class="menu"><a class="nav" href>Contacts</a> </li>
                     </ul>
             </nav>
             <address class="contacts">
                 <ul class="flex-contacts">
-                    <li class="menu"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li ><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="menu contact-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="contact-phone"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
         </div>
@@ -38,11 +38,11 @@
     <h1 class="visually-hidden">Filter our portfolio</h1>
             <!-- Filter input -->
     <ul class="flex-filter-btn">
-        <li><button type="button" class="btn-filter">All</button></li>
-        <li><button type="button" class="btn-filter">Web Site</button></li>
-        <li><button type="button" class="btn-filter">App</button></li>
-        <li><button type="button" class="btn-filter">Design</button></li>
-        <li><button type="button" class="btn-filter">Marketing</button></li>
+        <li><button class="btn-filter" type="button">All</button></li>
+        <li><button class="btn-filter" type="button">Web Site</button></li>
+        <li><button class="btn-filter" type="button">App</button></li>
+        <li><button class="btn-filter" type="button">Design</button></li>
+        <li><button class="btn-filter" type="button">Marketing</button></li>
     </ul>
     <!-- Filter results -->
     <ul class="flex-filter-cards">
@@ -101,7 +101,7 @@
                 </a>
             </li>
             <li class="cards">
-                <a href="" >
+                <a href="">
                     <img class="cards-image" src="./images/portfolio/instagram-concept.jpg" alt="Screenshot with Instagram Stories concept" width="360" height="300">
                     <div class="filter-cards">
                         <h2 class="subtitle subtitle-upper">Instagram Stories Concept</h2>
